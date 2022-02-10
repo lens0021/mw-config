@@ -1049,6 +1049,15 @@ $wgManageWikiSettings = [
 		'help' => 'Restrict {{DISPLAYTITLE}} to titles that normalize to the same canonical database key. Wikis with NoTitle extension installed have this config unset.',
 		'requires' => [],
 	],
+	'wgEnableMetaDescriptionFunctions' => [
+		'name' => 'Enable Meta Description Functions',
+		'from' => 'description2',
+		'type' => 'check',
+		'overridedefault' => false,
+		'section' => 'parserfunctions',
+		'help' => 'Allows use of {{#description2:}} which can be used to control the description outputted for the page and override it with a custom one.',
+		'requires' => [],
+	],
 
 	// Media/File
 	'wgEnableUploads' => [

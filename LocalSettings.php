@@ -1131,6 +1131,9 @@ $wi->config->settings += [
 	'wgEnableMetaDescriptionFunctions' => [
 		'wmgUseDescription2' => true,
 	],
+	'wgEnableMetaDescriptionFunctions' => [
+		'default' => false,
+	],
 
 	// DismissableSiteNotice
 	'wgDismissableSiteNoticeForAnons' => [
