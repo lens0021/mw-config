@@ -5,5 +5,4 @@ ExtensionMessageFiles.php
 
 # Testing
 /composer.lock
-/vendor
 /node_modules
