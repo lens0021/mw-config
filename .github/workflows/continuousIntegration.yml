@@ -24,7 +24,7 @@ jobs:
       uses: shivammathur/setup-php@v2
       with:
         php-version: ${{ matrix.php-versions }}
-        tools: composer:2.1
+        tools: composer:2.1.14
 
     - name: Install dependencies
       run: |
