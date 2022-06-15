@@ -1,9 +1,9 @@
-PrivateSettings.php 
+PrivateSettings.php
 ExtensionMessageFiles.php
 *.php.save
 *.key
 
 # Testing
 /composer.lock
-# /vendor
+/vendor
 /node_modules
